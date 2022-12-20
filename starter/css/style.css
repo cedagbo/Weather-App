@@ -1,0 +1,18 @@
+/*CSS Variables*/
+:root{
+    --black: #6D9886;
+    --white: #ffffff;
+}
+
+
+.search-button{
+    width: 190px;
+    background-color: var(--black);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.search-button:active{
+    background-color: var(--white) ;
+    cursor: pointer;
+}
